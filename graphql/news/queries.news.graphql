@@ -1,0 +1,13 @@
+query News($id: String!) {
+    news(id: $id) {
+        id
+        title
+    }
+}
+
+query NewsList {
+    newsList {
+        id
+        title
+    }
+}
